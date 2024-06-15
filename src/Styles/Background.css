@@ -1,0 +1,13 @@
+.bk-section {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  min-height: 100vh;
+}
+.bk-section-img {
+  min-height: 100vh;
+  max-width: 100%;
+  object-fit: cover;
+  image-rendering: optimizeQuality;
+  filter: brightness(0.4);
+}
